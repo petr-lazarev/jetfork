@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "About"
-date: 2020-09-03 12:00:00 +0100
+date: 2020-10-01 12:00:00 +0100
 ---
 
-Hi, my name is Petr and I'm a Team lead and software developer. I work for an international IT company in Gdansk, Poland. In my spare time I create games for my kids and experiment with augmented reality and artificial intelligence for mobile applications. Check out my [CV][cv] for more details.
+Hi, my name is Petr and I'm a Team lead and software developer (iOS, front-end). I work for an international IT company in Gdansk, Poland. In my spare time I create games for my kids and experiment with augmented reality and artificial intelligence for mobile applications. Check out my [CV][cv] for more details.
 
-[cv]: https://drive.google.com/file/d/1B6sCk4HgBkUbyKtPN5CKtpZcxVsmBJ09/view?usp=sharing
+[cv]: https://drive.google.com/file/d/1ON5xNP2b-6Ok8ZRaTjjYXJS2OIZ1nSJ2/view?usp=sharing

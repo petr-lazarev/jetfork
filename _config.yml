@@ -1,10 +1,8 @@
 title: Petr Lazarev
-author: Karbaman
+author: Petr Lazarev
 email: jetfork@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Petr Lazarev personal website. Team leading, iOS mobile development, front-end development.
 show_excerpts: true # set to true to show excerpts on the homepage
 baseurl:
 
@@ -16,7 +14,7 @@ sass:
 permalink: /posts/:title/
 texture:
   title: Petr Lazarev
-  tagline: Team lead, software developer
+  tagline: Team lead, iOS and front-end developer
   date_format: "%b %-d, %Y"
   style: black
   showNav: false

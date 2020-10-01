@@ -15,7 +15,7 @@ I think it will be funny to have 2 characters:
 1 - A fox. It tries to recognize an animal (cat, dog, ...)  
 2 - A robot. It tries to recognize a thing (car, airplane, ...)
 
-![image tooltip here](/assets/images/doodle-recognizer.jpeg)
+![Doodle recognizer MVP](/assets/images/doodle-recognizer.gif)
 
 [quickdraw]: https://quickdraw.withgoogle.com
 [createml]: https://developer.apple.com/machine-learning/create-ml/
