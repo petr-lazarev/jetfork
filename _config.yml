@@ -14,7 +14,7 @@ sass:
 permalink: /posts/:title/
 texture:
   title: Petr Lazarev
-  tagline: Team lead, iOS and front-end developer
+  tagline: Engineering manager, Game developer
   date_format: "%b %-d, %Y"
   style: black
   showNav: false
@@ -30,7 +30,7 @@ texture:
   # generate social links in footer
   social_links:
     github: petr-lazarev
-    linkedIn: in/petr-lazarev-7b94a6130
+    linkedIn: in/petr-lazarev
     rss: rss
 
 # If you want to link only specific pages in your header, uncomment
