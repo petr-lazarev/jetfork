@@ -131,7 +131,7 @@ function createFallbackHeader() {
                         <a href="${isArticlePage ? '../about.html' : 'about.html'}" class="nav-link">About</a>
                         <a href="${isArticlePage ? '../writings.html' : 'writings.html'}" class="nav-link">Writings</a>
                         <a href="${isArticlePage ? '../bookmarks.html' : 'bookmarks.html'}" class="nav-link">Bookmarks</a>
-                        <a href="https://linkedin.com/in/yourprofile" class="nav-link external-link" target="_blank">LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/petr-lazarev/" class="nav-link external-link" target="_blank">LinkedIn</a>
                     </div>
                 </nav>
             </div>
