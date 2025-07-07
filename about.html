@@ -3,24 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - Petr's Website</title>
+    <title>About - Petr Lazarev</title>
+    <meta name="description" content="Engineering Manager and Developer with extensive experience building and scaling full-stack product teams in high-growth environments.">
+    <meta name="author" content="Petr Lazarev">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://petrlazarev.com/about.html">
+    <meta property="og:title" content="About - Petr Lazarev">
+    <meta property="og:description" content="Engineering Manager and Developer with extensive experience building and scaling full-stack product teams in high-growth environments.">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:url" content="https://petrlazarev.com/about.html">
+    <meta property="twitter:title" content="About - Petr Lazarev">
+    <meta property="twitter:description" content="Engineering Manager and Developer with extensive experience building and scaling full-stack product teams in high-growth environments.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+    <link rel="shortcut icon" href="assets/icons/favicon.svg">
+    
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-    <div id="header-placeholder"></div>
-    
-    <main class="container">
-        <section id="about" class="section">
-            <h1>Hey, I'm Petr</h1>
-            <div class="intro">
-                <p>I'm an Engineering Manager and Developer with 15+ years of experience building and scaling full-stack product teams in high-growth environments. I've led individual teams and orgs of 20+ engineers, helping teams grow through strong hiring, onboarding, leveling frameworks, and performance systems.
-                    I've led teams across Booking, Payments, Growth, Client Experience domains collaborating closely with product and design to ship features that balance speed, polish, and long-term value.
-                    Alongside my product leadership work, I have hands-on experience in Web, Mobile, Game development and Gamification. I bring this lens to feature design, using feedback loops, motivation mechanics, and delight to create engaging user experiences. 
-                    I'm passionate about building inclusive, healthy engineering cultures where people thrive.</p>
+    <div id="header-placeholder">
+        <!-- Fallback navigation that shows immediately -->
+        <header role="banner" class="fallback-header">
+            <div class="container">
+                <nav role="navigation" aria-label="Main navigation">
+                    <a href="about.html" class="logo" aria-label="Home - Petr Lazarev">Petr Lazarev</a>
+                    <div class="nav-links" role="menubar">
+                        <a href="about.html" class="nav-link active" role="menuitem">About</a>
+                        <a href="writings.html" class="nav-link" role="menuitem">Writings</a>
+                        <a href="bookmarks.html" class="nav-link" role="menuitem">Bookmarks</a>
+                        <a href="https://www.linkedin.com/in/petr-lazarev/" class="nav-link external-link" target="_blank" rel="noopener noreferrer" role="menuitem" aria-label="LinkedIn profile (opens in new tab)">LinkedIn</a>
+                    </div>
+                </nav>
             </div>
+        </header>
+    </div>
+    
+    <main class="container" role="main">
+        <section id="about" class="section">
+            <header class="hero-section">
+                <div class="hero-content">
+                    <h1 class="hero-title">Hey, I'm Petr</h1>
+                    <p class="hero-subtitle">Engineering Manager & Developer</p>
+                </div>
+                <div class="intro">
+                    <p>I'm an Engineering Manager and Developer with extensive experience building and scaling full-stack product teams in high-growth environments. I've led individual teams and organizations, helping teams grow through strong hiring, onboarding, leveling frameworks, and performance systems.</p>
+                    <p>I've led teams across Booking, Payments, Growth, and Client Experience domains collaborating closely with product and design to ship features that balance speed, polish, and long-term value.</p>
+                    <p>Alongside my product leadership work, I have hands-on experience in Web, Mobile, Game development and Gamification. I bring this lens to feature design, using feedback loops, motivation mechanics, and delight to create engaging user experiences. I'm passionate about building inclusive, healthy engineering cultures where people thrive.</p>
+                </div>
+            </header>
 
-            <div class="section">
-                <h3>Things I Believe</h3>
+            <section class="beliefs-section" aria-labelledby="beliefs-heading">
+                <h2 id="beliefs-heading">
+                    <img src="assets/icons/lightbulb.svg" alt="" class="section-icon" aria-hidden="true">
+                    Things I Believe
+                </h2>
                 <ul>
                     <li>
                       A clear vision inspires action and alignment more than org charts ever could.
@@ -70,9 +111,12 @@
                       </ul>
                     </li>
                   </ul>                      
-            </div>
-            <div class="section">
-              <h3>Deep Interests</h3>
+            </section>
+            <section class="interests-section" aria-labelledby="interests-heading">
+              <h2 id="interests-heading">
+                <img src="assets/icons/heart.svg" alt="" class="section-icon" aria-hidden="true">
+                Deep Interests
+              </h2>
               <ul>
                   <li>Crafting products with attention to detail</li>
                   <li>Shaping teams where every player reads the game, plays their role, and lifts the whole</li>
@@ -80,7 +124,7 @@
                   <li>Building cultures that people want to be part of</li>
                   <li>Game Design and Gamification</li>
               </ul>
-          </div>
+            </section>
         </section>
     </main>
 

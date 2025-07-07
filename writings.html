@@ -4,30 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Writings - Petr Lazarev</title>
+    <meta name="description" content="Thoughts, ideas, and insights about engineering management, product development, and building teams.">
+    <meta name="author" content="Petr Lazarev">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://petrlazarev.com/writings.html">
+    <meta property="og:title" content="Writings - Petr Lazarev">
+    <meta property="og:description" content="Thoughts, ideas, and insights about engineering management, product development, and building teams.">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:url" content="https://petrlazarev.com/writings.html">
+    <meta property="twitter:title" content="Writings - Petr Lazarev">
+    <meta property="twitter:description" content="Thoughts, ideas, and insights about engineering management, product development, and building teams.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+    <link rel="shortcut icon" href="assets/icons/favicon.svg">
+    
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-    <div id="header-placeholder"></div>
-    <main class="container">
-        <h1>Writings</h1>
-        <div class="intro">
-            <p>Thoughts, ideas, and insights I've shared over the years.</p>
-        </div>
-        <div class="writing-item">
-            <div class="writing-date"></div>
-            <h3><a href="writings/a-startup-foundation-the-unique-idea.html">A startup foundation: the unique idea</a></h3>
-            <p>Why every great startup begins with a unique idea, and how to choose one that inspires a decade of commitment and focus.</p>
-        </div>
-        <div class="writing-item">
-            <div class="writing-date"></div>
-            <h3><a href="writings/where-do-startup-ideas-come-from.html">Where do startup ideas come from?</a></h3>
-            <p>Three sources of unique startup ideas: solving your own problem, the right timing, and solving others' problems.</p>
-        </div>
-        <div class="writing-item">
-            <div class="writing-date"></div>
-            <h3><a href="writings/building-a-quality-product.html">Building a quality product</a></h3>
-            <p>How to build a product that people love: start small, focus on quality, and iterate with user feedback.</p>
-        </div>
+    <div id="header-placeholder">
+        <!-- Fallback navigation that shows immediately -->
+        <header role="banner" class="fallback-header">
+            <div class="container">
+                <nav role="navigation" aria-label="Main navigation">
+                    <a href="about.html" class="logo" aria-label="Home - Petr Lazarev">Petr Lazarev</a>
+                    <div class="nav-links" role="menubar">
+                        <a href="about.html" class="nav-link" role="menuitem">About</a>
+                        <a href="writings.html" class="nav-link active" role="menuitem">Writings</a>
+                        <a href="bookmarks.html" class="nav-link" role="menuitem">Bookmarks</a>
+                        <a href="https://www.linkedin.com/in/petr-lazarev/" class="nav-link external-link" target="_blank" rel="noopener noreferrer" role="menuitem" aria-label="LinkedIn profile (opens in new tab)">LinkedIn</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+    </div>
+    <main class="container" role="main">
+        <header class="page-header">
+            <h1 class="page-title">
+                <img src="assets/icons/pen.svg" alt="" class="page-icon" aria-hidden="true">
+                Writings
+            </h1>
+            <p class="intro">Thoughts, ideas, and insights I've shared over the years.</p>
+        </header>
+        
+        <section class="writings-list" aria-labelledby="writings-heading">
+            <h2 id="writings-heading" class="sr-only">List of articles</h2>
+            <article class="writing-item">
+                <h3><a href="writings/a-startup-foundation-the-unique-idea.html">A startup foundation: the unique idea</a></h3>
+                <p>Why every great startup begins with a unique idea, and how to choose one that inspires a decade of commitment and focus.</p>
+            </article>
+            
+            <article class="writing-item">
+                <h3><a href="writings/where-do-startup-ideas-come-from.html">Where do startup ideas come from?</a></h3>
+                <p>Three sources of unique startup ideas: solving your own problem, the right timing, and solving others' problems.</p>
+            </article>
+            
+            <article class="writing-item">
+                <h3><a href="writings/building-a-quality-product.html">Building a quality product</a></h3>
+                <p>How to build a product that people love: start small, focus on quality, and iterate with user feedback.</p>
+            </article>
+        </section>
     </main>
     <script src="scripts/header.js"></script>
     <script src="scripts/main.js"></script>
