@@ -1,9 +1,0 @@
----
-layout: post
-title: "About"
-date: 2023-10-01 12:00:00 +0100
----
-
-My name is Petr, and I am an engineering manager with years of experience leading small agile teams and entire development departments.
-I develop indie games and experiment with various technologies in my spare time.
-Check out my <a href="https://drive.google.com/file/d/16v6LkA56uMI_4siYXlaX8X7WVEjOSM5I/view?usp=share_link" target="_blank">CV</a> for more details.

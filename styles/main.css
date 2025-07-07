@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fafafa;
+}
+
+.container {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    padding: 40px 0;
+    border-bottom: 1px solid #e1e1e1;
+    background: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+#header-placeholder {
+    min-height: 120px; /* Match header height to prevent layout shift */
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+    margin-left: auto;
+}
+
+.nav-links a {
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.2s;
+}
+
+.nav-links a:hover {
+    color: #000;
+}
+
+.nav-links a.active {
+    color: #000;
+}
+
+main {
+    background: white;
+    min-height: calc(100vh - 120px);
+    padding: 60px 0;
+    overflow: auto; /* Prevent margin collapse */
+}
+
+.page {
+    display: none;
+}
+
+.page.active {
+    display: block;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 40px 0 20px 0;
+    color: #000;
+}
+
+.intro {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 50px;
+    line-height: 1.7;
+}
+
+.section {
+    margin-bottom: 50px;
+}
+
+main > .section:first-child {
+    margin-top: 0;
+}
+
+.section h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #000;
+}
+
+.section ul {
+    list-style: none;
+}
+
+.section li {
+    margin-bottom: 25px;
+    padding-left: 20px;
+    position: relative;
+    color: #000;
+    font-weight: 500;
+}
+
+.section li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #000;
+}
+
+.section li ul {
+    margin-top: 8px;
+    margin-bottom: 0;
+    padding-left: 20px;
+    border-left: 2px solid #f0f0f0;
+    padding-left: 15px;
+}
+
+.section li ul li {
+    color: #666;
+    margin-bottom: 6px;
+    font-weight: normal;
+    padding-left: 15px;
+    position: relative;
+}
+
+.section li ul li:before {
+    content: "◦";
+    position: absolute;
+    left: 0;
+    color: #999;
+    font-size: 12px;
+}
+
+.belief-item {
+    margin-bottom: 40px;
+}
+
+.belief-item h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #000;
+}
+
+.belief-item p {
+    margin-bottom: 15px;
+    line-height: 1.7;
+}
+
+.belief-item ul {
+    margin-bottom: 15px;
+}
+
+.belief-item strong {
+    font-weight: 600;
+    color: #000;
+}
+
+.belief-item em {
+    font-style: italic;
+    color: #666;
+}
+
+.writing-item, .bookmark-item {
+    padding: 20px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.writing-item:last-child, .bookmark-item:last-child {
+    border-bottom: none;
+}
+
+.writing-item h3, .bookmark-item h3 {
+    margin: 0 0 8px 0;
+    font-size: 16px;
+}
+
+.writing-item a, .bookmark-item a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.writing-item a:hover, .bookmark-item a:hover {
+    text-decoration: underline;
+}
+
+.writing-item p, .bookmark-item p {
+    color: #666;
+    font-size: 14px;
+    margin: 0;
+}
+
+.external-link::after {
+    content: "↗";
+    font-size: 12px;
+    margin-left: 2px;
+}
+
+.writing-date {
+    color: #999;
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+
+/* Article page styles */
+.article-content {
+    line-height: 1.8;
+    color: #333;
+}
+
+.article-content p {
+    margin-bottom: 20px;
+}
+
+.article-content h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.article-content h3 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.article-content ul, .article-content ol {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.article-content li {
+    margin-bottom: 8px;
+}
+
+.article-meta {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.back-link:hover {
+    color: #000;
+}
+
+.back-link::before {
+    content: "← ";
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    header {
+        padding: 20px 0;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .nav-links {
+        margin-left: 0;
+    }
+
+    main {
+        padding: 40px 0;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+}
+
+main h1 {
+    margin-top: 40px;
+} 
