@@ -126,7 +126,7 @@ function createFallbackHeader() {
         <header>
             <div class="container">
                 <nav>
-                    <a href="#" class="logo">Your Name</a>
+                    <a href="#" class="logo">Petr Lazarev</a>
                     <div class="nav-links">
                         <a href="${isArticlePage ? '../about.html' : 'about.html'}" class="nav-link">About</a>
                         <a href="${isArticlePage ? '../writings.html' : 'writings.html'}" class="nav-link">Writings</a>
