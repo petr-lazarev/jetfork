@@ -51,9 +51,10 @@
                     <p class="hero-subtitle">Engineering Manager & Developer</p>
                 </div>
                 <div class="intro">
-                    <p>I'm an Engineering Manager and Developer with extensive experience building and scaling full-stack product teams in high-growth environments. I've led individual teams and organizations, helping teams grow through strong hiring, onboarding, leveling frameworks, and performance systems.</p>
-                    <p>I've led teams across Booking, Payments, Growth, and Client Experience domains collaborating closely with product and design to ship features that balance speed, polish, and long-term value.</p>
-                    <p>Alongside my product leadership work, I have hands-on experience in Web, Mobile, Game development and Gamification. I bring this lens to feature design, using feedback loops, motivation mechanics, and delight to create engaging user experiences. I'm passionate about building inclusive, healthy engineering cultures where people thrive.</p>
+                    <p>I'm an Engineering Manager and Developer with extensive experience building and scaling full-stack product teams in high-growth environments. <a href="#" id="about-more-toggle" style="margin-left:4px;">more...</a></p>
+                    <div class="about-more-content" style="display:none;">
+                        <p>I've led teams and orgs across domains like Booking, Payments, Growth, and Client Experience — driving hiring, onboarding, leveling, and performance systems. I work closely with product and design to ship features that balance speed, polish, and long-term value. With hands-on experience in Web, Mobile, Game Dev, and Gamification, I bring a user-focused lens grounded in feedback loops and motivation mechanics. I'm passionate about building inclusive, healthy engineering cultures where people thrive long-term.</p>
+                    </div>
                 </div>
             </header>
 
@@ -129,5 +130,21 @@
     </main>
 
     <script src="scripts/header.js"></script>
+    <script>
+      const toggle = document.getElementById('about-more-toggle');
+      const moreContent = document.querySelector('.about-more-content');
+      if (toggle && moreContent) {
+        toggle.addEventListener('click', function(e) {
+          e.preventDefault();
+          if (moreContent.style.display === 'none') {
+            moreContent.style.display = 'block';
+            toggle.textContent = 'less...';
+          } else {
+            moreContent.style.display = 'none';
+            toggle.textContent = 'more...';
+          }
+        });
+      }
+    </script>
 </body>
 </html> 
